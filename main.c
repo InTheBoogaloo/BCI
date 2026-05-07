@@ -4,7 +4,7 @@
 
 
 int main(){
-	char *input = "ls mkdir hola = 1 -1";
+	char *input = "ls mkdir hola = 1 >";
 	List *l = tokenize(input);
 	print_list(l);
 	return 0;
