@@ -6,7 +6,7 @@ typedef enum Token_type{
 	NUMBER,
 	OPERATION,
 	STRING,
-	UNKNOWN
+	UNKNOWN = -1
 }Token_type;
 
 typedef struct Token {

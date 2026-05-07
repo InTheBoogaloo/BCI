@@ -37,6 +37,7 @@ void print_list(List *l){
 	Token *aux = l->head;
 	while(aux){
 		print_token(aux);
+		printf("\n");
 		aux = aux->next;
 	}
 	return;
